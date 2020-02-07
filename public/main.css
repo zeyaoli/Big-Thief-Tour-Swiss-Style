@@ -1,10 +1,10 @@
-n@font-face {
+@font-face {
 	font-family: 'DIN-Condensed';
 	src: url('assets/DIN-Condensed-Bold.ttf') format('truetype');
 }
 
 body {
-	background-color: #f2ece5;
+	/* background-color: #f2ece5; */
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -53,7 +53,7 @@ h1 {
 
 .tour-title {
 	position: relative;
-	width: 260px;
+	width: 300px;
 	font-family: 'DIN-Condensed', 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
