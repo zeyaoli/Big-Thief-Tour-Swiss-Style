@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'DIN-Condensed';
-	src: url('public/assets/DIN-Condensed-Bold.ttf') format('truetype');
+	src: url('assets/DIN-Condensed-Bold.ttf') format('truetype');
 }
 
 body {
@@ -57,7 +57,7 @@ h1 {
 	font-family: 'DIN-Condensed', 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 24px;
+	font-size: 36px;
 	z-index: 99;
 }
 
@@ -113,7 +113,7 @@ h1 {
 	bottom: -5px;
 	text-align: center;
 	font-family: 'DIN-Condensed', 'Open Sans Condensed', sans-serif;
-	font-size: 20px;
+	font-size: 36px;
 	z-index: 99;
 }
 
