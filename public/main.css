@@ -1,4 +1,4 @@
-@font-face {
+n@font-face {
 	font-family: 'DIN-Condensed';
 	src: url('assets/DIN-Condensed-Bold.ttf') format('truetype');
 }
@@ -58,6 +58,7 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 36px;
+	color: #413225;
 	z-index: 99;
 }
 
