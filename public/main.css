@@ -1,0 +1,153 @@
+@font-face {
+	font-family: 'DIN-Condensed';
+	src: url('public/assets/DIN-Condensed-Bold.ttf') format('truetype');
+}
+
+body {
+	background-color: #f2ece5;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: Helvetica-Neue, Arial, sans-serif;
+}
+
+main {
+	background-color: #f2ece5;
+	width: 960px;
+	height: 1358px;
+	margin-top: 20px;
+	/* display: flex;
+    justify-content: center; */
+	/* flex-wrap: wrap; */
+}
+
+h1 {
+	font-size: 425px;
+	color: #e1dcd6;
+	margin: 0;
+	padding: 0;
+	line-height: 410px;
+	user-select: none;
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.container {
+	width: 864px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	position: relative;
+	margin-left: 46px;
+	margin-right: 46px;
+}
+
+.foreground {
+	display: grid;
+	grid-auto-columns: 260px;
+	grid-column-gap: 43px;
+	grid-template-rows: 174px 174px 174px 174px 174px 174px;
+	justify-items: center;
+}
+
+.tour-title {
+	position: relative;
+	width: 260px;
+	font-family: 'DIN-Condensed', 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24px;
+	z-index: 99;
+}
+
+.tour {
+	text-align: center;
+	color: #505438;
+	font-size: 18px;
+	line-height: 0.7em;
+	font-weight: 550;
+	z-index: 99;
+}
+
+.tour-detail-1 {
+	grid-row: 1/2;
+}
+.tour-detail-2 {
+	grid-row: 1/2;
+}
+
+.tour-detail-3 {
+	grid-row: 1/2;
+}
+
+.tour-detail-4 {
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.tour-detail-9 {
+	grid-column: 3/4;
+	grid-row: 3/4;
+}
+
+.big {
+	position: absolute;
+	top: -20px;
+	left: 120px;
+}
+.thi {
+	position: absolute;
+	top: 384px;
+	left: 0;
+}
+.ef {
+	position: absolute;
+	top: 768px;
+	left: 0;
+}
+
+.ask-me {
+	position: absolute;
+	right: 304px;
+	bottom: -5px;
+	text-align: center;
+	font-family: 'DIN-Condensed', 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	z-index: 99;
+}
+
+.ask-me h3 {
+	background: #505438;
+	color: #f2ece5;
+}
+
+#triangle-topleft {
+	position: absolute;
+	width: 0;
+	border: 0;
+	border-top: 430px solid #f2ece5;
+	border-right: 430px solid transparent;
+	z-index: 30;
+}
+
+#triangle-bottomright {
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 0;
+	top: 70px;
+	border-bottom: 325px solid #f2ece5;
+	border-left: 300px solid transparent;
+	z-index: 30;
+}
+
+#triangle-bottomleft {
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	border-bottom: 170px solid #f2ece5;
+	border-right: 305px solid transparent;
+	z-index: 30;
+}
