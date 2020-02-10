@@ -2,7 +2,7 @@
 
 A swiss style website for Big Thief North America Tour 2020
 
-![final poster](https://github.com/zeyaoli/Big-Thief-Tour-Swiss-Style/blob/master/design/poster_final.png);
+![final poster](https://github.com/zeyaoli/Big-Thief-Tour-Swiss-Style/blob/master/design/poster_final.png)
 
 Big Thief Tour website mock up is inspired from the Swiss Style Poster design. It is for Dynamic Web Development Assignment 2 Making & Breaking the Grid - Swiss Poster Design
 
